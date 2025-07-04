@@ -1,9 +1,13 @@
-# Medidor-de-capacitancia
+# Medidor-de-capacitância
 
-3.3V ─── [100kΩ] ───●───── GPIO34 (ADC leitura)
-                   │
-                   └───── GPIO25 (CHARGE_PIN)
-                   │
-                [Cx capacitor]  calibração com 470 nf
-                   │
-                  GND
+ESP32 DEV MODULE
+US 115200
+
+                  
+GPIO 25 (CHARGE PIN)── [Resistor 100kΩ] ──●─── GPIO 34(ADC LEITURA)
+                             │
+                         [Capacitor]
+                             │
+                            GND
+
+*CALIBRAÇÃO COM CAPACITOR 470NF
